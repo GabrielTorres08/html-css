@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: android;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body{
+    background-color: #DBDAB7;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #25aa5f,#0C582A,#033C1B);
+    margin: auto;
+    
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    padding-top: 50px;
+    height: 50px;
+    margin: 0px 0px 50px 0px;
+}
+header > p{
+    font-family: "Gruppo", sans-serif;
+    color: #cdffe2;
+    text-align: center;
+    font-size: 1.50em;
+    font-weight: 400;
+    width: 775px;
+    height: 90px;
+    margin: 80px auto auto auto;
+}
+nav{
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+nav > a{
+    text-decoration: none;
+    color: #95DCB5;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.10em;
+}
+nav > a:hover{
+    background-color: #1D854A;
+}
+
+main{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.473);
+    padding: 10px;
+}
+section > h1{
+    color: #16402A;
+    padding: 20px;
+    margin-top: 0px;
+    font-family: android;
+    font-size: 2em;
+}
+article > h2{
+    font-family: android;
+    color: #16402A;
+    margin: 20px;
+    font-size: 1.75em;
+    background-image: linear-gradient(to right, #84d6a0,#A8EBC2,#E1F9E9,white);
+}
+article > p {
+    font-weight: 300;
+    font-size: 1.25em;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-indent: 30px;
+}
+article > p > a{
+    text-decoration: none;
+    color: #118d53;
+    font-weight: bolder;
+}
+article > p > a.expecial{
+    background-color: #cdffe2d0;
+}
+article > p > a.expecial:hover{
+    text-decoration: none;
+    color: #084227;
+}
+article > p > a.expecial::after{
+    content: ' 🔗 ';
+}
+article > p > a:hover{
+    text-decoration: underline;
+    color: #0d663c;
+}
+aside{
+    text-align: center;
+}
