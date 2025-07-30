@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+section#container  {
+    height: 500px;
+    background-color: purple;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+article#conteudo {
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section#container2  {
+    height: 500px;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article#conteudo2 {
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
