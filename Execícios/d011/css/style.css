@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 div.container {
     height: 100vh;
     background: black url('../imagens/espaco.jpg') top center no-repeat fixed;
