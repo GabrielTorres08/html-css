@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        table, td, tr, th {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 0px 20px;
+        }
+
+        td {
+            text-indent: -15px;
+        }
+
+        .colnome {
+            background-color: gray;
+        }
+
+        .col2 {
+            background-color: yellow;
+        }
+
+        .colprofissao {
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="colnome">
+            <col class="col2" span="2">
+            <col class="colprofissao">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>56</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Rita</td>
+                <td>F</td>
+                <td>42</td>
+                <td>Bióloga</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Barman</td>
+            </tr>
+            <tr>
+                <td>Rian</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Piloto de avião</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
